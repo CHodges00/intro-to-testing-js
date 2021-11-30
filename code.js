@@ -7,7 +7,7 @@
 // const helloWorld = function() {
 //     return "Hello, World!";
 // }
-
+//
 function sayHello(name) {
     if (typeof(name) === "undefined"){
         return 'Hello, World!';
@@ -19,6 +19,7 @@ function sayHello(name) {
         return `Hello, ${name}!`;
     }
 }
+//
 //     if (name === 'Alex') {
 //         return ('Hello, Alex!');
 //     }else if (name === 'Pat'){
@@ -27,7 +28,7 @@ function sayHello(name) {
 //         return ('Hello, Jane!')
 //     }
 // }
-
+//
 function isFive(input){
     if ((input) == 5){
     return 'true';
@@ -35,16 +36,24 @@ function isFive(input){
         return 'false';
     }
 }
-
 //
-
 function isEven(input){
     if ((input) % 2 === 0){
         return 'true';
     }else{
-        return 'false'
+        return 'false';
     }
 }
-
-
-
+//
+function isVowel(input) {
+    if (typeof input === 'string') {
+        return input.toLowerCase() === 'a'
+            || input.toLowerCase() === 'e'
+            || input.toLowerCase() === 'i'
+            || input.toLowerCase() === 'o'
+            || input.toLowerCase() === 'u'
+    } else {
+        return false;
+    }
+}
+//
