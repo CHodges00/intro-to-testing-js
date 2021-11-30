@@ -59,7 +59,7 @@ function isVowel(input) {
 //
 function add(num1, num2){
     if(isNaN(num1) || isNaN(num2)){
-        return 'NaN';
+        return NaN;
     }else {
         return Number(num1) + Number(num2);
     }
