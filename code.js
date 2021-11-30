@@ -1,8 +1,8 @@
 //helloWorld function
 
-// function helloWorld() {
-//     return ("Hello, World!");
-// }
+function helloWorld() {
+    return ("Hello, World!");
+}
 
 // const helloWorld = function() {
 //     return "Hello, World!";
@@ -28,7 +28,7 @@ function sayHello(name) {
 //         return ('Hello, Jane!')
 //     }
 // }
-//
+
 function isFive(input){
     if ((input) == 5){
     return 'true';
