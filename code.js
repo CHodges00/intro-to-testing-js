@@ -47,11 +47,7 @@ function isEven(input){
 //
 function isVowel(input) {
     if (typeof input === 'string') {
-        return input.toLowerCase() === 'a'
-            || input.toLowerCase() === 'e'
-            || input.toLowerCase() === 'i'
-            || input.toLowerCase() === 'o'
-            || input.toLowerCase() === 'u'
+        return input.toLowerCase() === ("a" || "e" || "i" || "o" || "u");
     } else {
         return false;
     }
